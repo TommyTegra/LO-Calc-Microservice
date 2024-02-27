@@ -26,6 +26,8 @@ This will send the tuple and begin requesting data from the microservice.
 
 An example call of a valid tuple would be:
 ```
+import zmq
+
 # Create object
 obj = zmq.Context()
 socket = obj.socket(zmq.REQ)
